@@ -6,21 +6,36 @@
     <title>HNG: Personal Website</title>
 </head>
 <body>
+    <!-- about -->
     <section id="About">
+        <!-- about container div -->
         <div class="aboutDiv">
+            <!-- image -->
             <div class="imgDiv">
-                <img src="" alt="profile pics of me">
+                <img src="" alt="profile pics of me" data-testid="slackProfilePicture">
             </div>
+            <!-- personal infromation -->
             <div class="aboutMeDiv">
+                <!-- name and email -->
                 <div class="nameDiv">
                     <h2 data-testid="slackDisplayName">Dorcas Temitop Emmanuel</h2>
                     <p data-testid="slackEmail">emmanueltemitopdorcas20@gmail.com</p>
                 </div>
+                <!-- time in utc -->
                 <div class="timeDiv" id>
-
+                    <p>
+                        Current Time in UTC:
+                        <span id="currentTimeUTC" data-testid="currentTimeUTC"></span>
+                    </p>
+                    <p>
+                        Current Day:
+                        <span id="currentDay" data-testid="currentDay"></span>
+                    </p>
                 </div>
+                <!-- link div -->
                 <div class="linkDiv">
                     <p>learn more about HNG</p>
+                    <!-- links -->
                     <div class="link">
                         <a href="http://hng.tech/learn" target="_blank" rel="noopener noreferrer" data-testid="hngLink">HNG Tech</a>
                         <a href="http://keyword.dog" target="_blank" rel="noopener noreferrer" data-testid="keywordLink">Keyword</a>
@@ -29,6 +44,21 @@
                 </div>
             </div>
         </div>
+    </section>
+    <!-- goal -->
+    <section id="goal">
+        <!-- goal container div -->
+         <div class="goalDiv">
+            <p>My goal for the next two year in frontend Development:</p>
+            <!-- list of golas -->
+             <ul>
+                <li>Master Frontend Framework</li>
+                <li>Build complex web applications, like a single-page application or a progressive web app</li>
+                <li>learn about architecture and scalabity</li>
+                <li>learn Modern Web Technologies</li>
+                <li>learn the basics of Web3</li>
+             </ul>
+         </div>
     </section>
 </body>
 </html>
